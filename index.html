@@ -5,7 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--!CSS!-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--!FONT-AWESOME!-->
+    <script src="https://kit.fontawesome.com/31136155ab.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./img/logo.png">
     <title>Bean Bar</title>
   </head>
@@ -14,8 +17,12 @@
     <header>
       <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
       <nav>
-        <ul class="secundario">
-          <li><a href="./index.html">Inicio</a></li>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="bar-btn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="nav-menu">
+          <li><a class="active" href="./index.html">Inicio</a></li>
           <li><a href="./pages/menu.html">Menú</a></li>
           <li><a href="./pages/cafe.html">Café</a></li>
           <li><a href="./pages/nosotros.html">Nosotros</a></li>
@@ -25,40 +32,32 @@
     </header>
 
     <main>
-      <section class="primario hero">
+      <section class="hero">
         <h1>Bean Bar</h1>
       </section>
 
       <section>
-        <div>
-          <h2 class="primario">¡Bienvenidos!</h2>
+        <div class="card-1">
+          <h2 class="titulo-claro">¡Bienvenidos!</h2>
           <div class="alinear">
             <img src="./img/bean-bar.jpg" alt="bean-bar">
-            <p class="secundario">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga a vero minus et rerum veritatis pariatur! Repudiandae numquam quas maiores rem, molestiae repellat fugiat dolorem blanditiis voluptatem atque, expedita nobis?</p>
+            <p>¡Bienvenidos a nuestra cafetería! Aquí encontrarás información sobre nuestras bebidas y comida recién preparada en un ambiente acogedor y amigable. Esperamos brindarte una experiencia única y un servicio excepcional. <br>¡Gracias por visitarnos!</p>
           </div>
         </div>
-        
-        <div>
-          <h2 class="primario">Coffee, please.</h2>
+
+        <div class="card-2">
+          <h2 class="titulo-claro">Coffee, please.</h2>
           <div class="alinear">
             <img src="./img/coffee-please.jpg" alt="cafe">
-            <p class="secundario">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga a vero minus et rerum veritatis pariatur! Repudiandae numquam quas maiores rem, molestiae repellat fugiat dolorem blanditiis voluptatem atque, expedita nobis?</p>
+            <p>En nuestra cafetería compartimos tu amor por el café. Ofrecemos granos de alta calidad y una experiencia de servicio amable y acogedora. Ven y únete a nuestra comunidad de amantes del café.</p>
         </div>
         </div>
 
-        <div>
-          <h2 class="primario">¡Explora nuevos sabores!</h2>
+        <div class="card-3">
+          <h2 class="titulo-claro">¡Explora nuevos sabores!</h2>
           <div class="alinear">
             <img src="./img/nuevos-sabores.jpg" alt="nuevo-sabor">
-            <p class="secundario">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga a vero minus et rerum veritatis pariatur! Repudiandae numquam quas maiores rem, molestiae repellat fugiat dolorem blanditiis voluptatem atque, expedita nobis?</p>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="primario">Café, café y más café!</h2>
-          <div class="alinear">
-            <img src="./img/cafe-cafe-cafe.jpg" alt="cafe-3">
-            <p class="secundario">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga a vero minus et rerum veritatis pariatur! Repudiandae numquam quas maiores rem, molestiae repellat fugiat dolorem blanditiis voluptatem atque, expedita nobis?</p>
+            <p>En nuestra cafetería, nos enorgullece ofrecer una amplia variedad de sabores en cada taza de café. Desde nuestro suave latte con vainilla hasta nuestro audaz espresso con notas de chocolate oscuro, cada bebida está llena de sabor y aroma. Te invitamos a probar nuestra selección de sabores y descubrir tu nueva bebida favorita. Ven y sumérgete en una experiencia de café única y personalizada que te hará volver por más.</p>
           </div>
         </div>
       </section>
@@ -66,9 +65,9 @@
 
     <footer>
         <div>
-            <a href=""><img src="./img/instagram.png" alt="logo-instagram"></a>
-            <a href=""><img src="./img/facebook.png" alt="logo-facebook"></a>
-            <p class="secundario">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <p>
                 Bean Bar. Todos los derechos reservados.
             </p>
         </div>
