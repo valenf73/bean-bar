@@ -101,7 +101,7 @@ main section img {
 
 
 p {
-    margin-top: 15px;
+    padding-top: 15px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -157,6 +157,48 @@ section div h2 {
     font-size: 40px;
     padding: 20px;
     text-align: center;
+}
+
+.nuestro-cafe {
+    width: 100%;
+    height: 150px;
+    background-color: #000000d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-nuestro-cafe {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.barista, .tostado, .preparacion {
+    display: flex;
+    justify-content: center;
+}
+
+.barista img, .tostado img, .preparacion img {
+    width: 800px;
+}
+
+main section p, .metodos-h2{
+    padding: 30px;
+}
+
+.contenedor-cafe {
+    background-color: #DDB892;
+}
+.metodos-h2 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000d7;
+    font-size: 35px;
+}
+
+main section h3 {
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 /** FOOTER **/
@@ -219,6 +261,10 @@ footer div a i:hover {
     .alinear p {
         width: 50%;
     }
+
+    .barista img, .tostado img, .preparacion img {
+        width: 600px;
+    }
 }
 
 
@@ -233,6 +279,9 @@ footer div a i:hover {
         margin-top: 25px;
         margin-bottom: 25px;
         width: 80%;
+    }
+    .barista img, .tostado img, .preparacion img {
+        width: 100%;
     }
 }
 
